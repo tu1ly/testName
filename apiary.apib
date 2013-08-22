@@ -22,7 +22,7 @@ GET /shopping-cart
 Save new products in your shopping cart
 POST /shopping-cart
 > Content-Type: application/json
-{ "product":"1AB23ORM", "quantity": 2 }
+{ "product":"1AB23ORM", "quantity": 2 , "a": {"b":2, "c":{"d":2}}}
 < 201
 < Content-Type: application/json
 { "status": "created", "url": "/shopping-cart/2" }
